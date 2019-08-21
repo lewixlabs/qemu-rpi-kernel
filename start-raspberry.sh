@@ -6,6 +6,6 @@ qemu-system-arm \
   -net nic \
   -net user,hostfwd=tcp::5022-:22 \
   -dtb tools/versatile-pb.dtb \
-  -kernel tools/qemu-kernel-4.19.50 \
+  -kernel kernel-qemu-4.19.50-buster \
   -append 'root=/dev/sda2 panic=1' \
   -no-reboot
